@@ -1,0 +1,109 @@
+.logon-container {
+    padding: 50px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 50px;
+}
+.logon-container section.form form {
+    margin-top: 100px;
+
+}
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color:#3a3a46;
+}
+.logon-container section.form form a {
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+    color: #41414d;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+
+}
+.logon-container section.form form svg {
+    margin-right: 8px;
+}
+.logon-container section.form form a:hover {
+    opacity: 0.8;
+}    
+.logon-container img{
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    section{float:left;width:60%;}
+    content{float: right;width:35%}
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    section{float:left;width:60%;}
+    content{float: right;width:35%}
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    section{float:left;width:60%;}
+    content{float: right;width:35%}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    section{float:left;width:60%;}
+    content{float: right;width:35%}
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    section{float:left;width:60%;}
+    content{float: right;width:35%}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    section{width:95%;}
+    content{width:95%;}  
+  }
